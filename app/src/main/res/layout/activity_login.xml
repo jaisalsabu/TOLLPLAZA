@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="731dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="121dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/enter"
+            tools:layout_editor_absoluteY="45dp" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="268dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:ems="10"
+            android:hint="Phone"
+            android:inputType="textPersonName"
+            android:textColorHint="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="307dp" />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="268dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPersonName"
+            android:textColorHint="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="417dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btnrnd"
+            android:text="LOGIN"
+            android:layout_marginTop="80dp"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="554dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="200dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif"
+            android:text="New User?, Register"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
